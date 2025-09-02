@@ -1,68 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
 
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <link rel="icon" href="./assets/favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
 
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/styles.css" />
+  <title>Links - Senior Koster</title>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <figure>
+        <img src="./assets/perfil.png" alt="Foto de perfil" class="foto-perfil" />
+        <figcaption class="foto-perfil-descricao">Senior Koster</figcaption>
+      </figure>
+      <div class="subtitle">
+        <p class="bolos-paes">Bolos e Pães</p>
+        <p class="artesanais">Artesanais</p>
+        <p class="bolos-paes">Deliciosos!</p>
+        <p class="descricao">Confeitaria artesanal com sabores únicos e atendimento acolhedor.</p>
+      </div>
+    </header>
 
-    <title>Links - Senior Koster</title>
-  </head>
-  <body>
-    <div class="overlay">
-      <header>
-        <figure>
-          <img
-            src="./assets/perfil.png"
-            alt="Foto de perfil"
-            class="foto-perfil"
-          />
-          <figcaption class="foto-perfil-descricao">Senior Koster</figcaption>
-        </figure>
-        <div class="subtitle">
-          <p class="bolos-paes">Bolos e Pães</p>
-          <p class="atersanais">Artesanais</p>
-          <p class="deliciosos">Deliciosos!</p>
+    <main>
+      <a class="button bg-gradient-pink" href="https://www.seniorkoster.com.br">
+        <i class="fa-solid fa-globe"></i> Nosso Site
+      </a>
+
+      <a class="button bg-gradient-green" href="https://wa.me/554132773923?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20com%20a%20Senior%20Koster?" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+
+      <a class="button bg-gradient-red" href="https://www.ifood.com.br/delivery/curitiba-pr/confeitaria-senior-koster-ltda-xaxim/">
+        <i class="fa-solid fa-motorcycle"></i> Peça no iFood
+      </a>
+
+      <a class="button bg-gradient-purple" href="https://www.instagram.com/seniorkoster">
+        <i class="fa-brands fa-instagram"></i> Instagram
+      </a>
+
+      <a class="button bg-gradient-blue-social" href="https://www.facebook.com/seniorkosterbolosartisticos">
+        <i class="fa-brands fa-facebook"></i> Facebook
+      </a>
+
+      <a class="button bg-gradient-blue" href="https://maps.app.goo.gl/tYTcwyjUA6keGEdf6">
+        <i class="fa-solid fa-location-dot"></i> Como Chegar
+      </a>
+
+      <div class="button horario bg-white">
+        <div class="text-2xl mb-2"><i class="fa-solid fa-clock"></i></div>
+        <div class="font-medium text-lg mb-2">Horário de Funcionamento</div>
+        <div class="text-sm space-y-1">
+          <p>Ter - Sáb: 11:30h às 19:30h</p>
+          <p>Domingo: 14h às 18h</p>
+          <p class="fechado">Segunda: Fechado</p>
         </div>
-      </header>
+      </div>
 
-      <main>
-        <a
-          class="button"
-          href="https://api.whatsapp.com/send/?phone=554132773923&text=Ol%C3%A1%2C+seja+muito+bem+vindo%21%0AEm+seguida%2C+voc%C3%AA+ser%C3%A1+atendido.+%0AFicamos+felizes+pelo+contato%21+&type=phone_number&app_absent=0"
-        >
-          Fale com a gente!
-        </a>
-        <a class="button" href="https://www.instagram.com/seniorkoster/">
-          Instagram
-        </a>
-        <!-- <a class="button" href="https://www.seniorkoster.com.br">
-          Site
-        </a> -->
-        <a
-          class="button"
-          href="https://www.facebook.com/seniorkosterbolosartisticos/?locale=pt_BR"
-        >
-          Facebook
-        </a>
-        <a
-          class="button"
-          href="https://www.ifood.com.br/delivery/curitiba-pr/confeitaria-senior-koster-ltda-xaxim/53ebf9c4-aae2-4834-9e35-ba358542ff16?utm_medium=share&fbclid=PAZXh0bgNhZW0CMTEAAafK78shJaDij4YpynsIZkWd14gZjo_yKpE_pE85JbFvwbS2Rx1oCdQyADltGQ_aem__tC5faA3Pq6ezRgRuwjd0Q"
-        >
-          Ifood
-        </a>
-      </main>
-    </div>
-  </body>
+      <a class="button bg-gradient-gray" href="tel:+554132773923">
+        <i class="fa-solid fa-phone"></i> (41) 3277-3923
+      </a>
+    </main>
+
+    <footer>
+      <p class="endereco">Rua Constantino José de Almeida, 233</p>
+      <div class="copyright">
+        <p>
+          © 2025 MangaLab. Todos os direitos reservados. |
+          <span class="desenvolvido">
+            Desenvolvido com <img src="./assets/icon-copyright.png" alt="amor" class="icon-amor" /> pela equipe
+            <a href="https://www.mangalab.io" target="_blank" rel="noopener noreferrer"><b>MangaLab</b></a>
+          </span>
+        </p>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>
